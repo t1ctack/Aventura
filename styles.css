@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(88, 56, 6);
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(153, 120, 77);
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
